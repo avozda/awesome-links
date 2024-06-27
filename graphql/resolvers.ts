@@ -1,8 +1,8 @@
-import { PrismaClient } from '@prisma/client';
+import prisma from "../lib/prisma";
 
 
 export const resolvers = {
     Query: {
-        links: async () => []
+        links: async () => await prisma.link.findMany()
     }
 };

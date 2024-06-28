@@ -12,6 +12,10 @@
     "ts-node": "ts-node --compiler-options '{\"module\": \"CommonJS\"}'"
   },
   "dependencies": {
+    "@apollo/client": "^3.10.8",
+    "@pothos/core": "^3.41.2",
+    "@pothos/plugin-prisma": "^3.65.3",
+    "@pothos/plugin-relay": "^3.46.1",
     "@prisma/client": "^5.16.0",
     "apollo-server-micro": "^3.13.0",
     "graphql": "^16.9.0",
